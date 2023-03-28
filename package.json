@@ -20,7 +20,7 @@
   "homepage": "https://github.com/the-wright-jamie/Malicous-NodeJS#readme",
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^18.15.3",
+    "@types/node": "^18.15.10",
     "typescript": "^5.0.2",
     "ts-node-dev": "^2.0.0"
   },
