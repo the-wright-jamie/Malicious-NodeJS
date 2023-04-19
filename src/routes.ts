@@ -22,7 +22,7 @@ http.createServer(app).listen(4000, () => {
     fs.writeFileSync(cookies, "");
   }
 
-  console.log(`The most evil server has started successfully.`);
+  console.log(`The most evil server has started successfully on port 4000.`);
 });
 
 app.post("/eat-cookie", function (req, res) {
