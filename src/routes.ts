@@ -9,11 +9,13 @@ const worker = new Worker();
 
 var cors = require("cors");
 
+const PORT = 4500;
+
 app.use(express.json());
 app.use(cors());
 app.use(`/public`, express.static("./public"));
 
-http.createServer(app).listen(4000, () => {
+http.createServer(app).listen(PORT, () => {
   const cookies = "./cookies.log";
 
   try {
@@ -22,7 +24,7 @@ http.createServer(app).listen(4000, () => {
     fs.writeFileSync(cookies, "");
   }
 
-  console.log(`The most evil server has started successfully on port 4000.`);
+  console.log(`The most evil server has started successfully on port ${PORT}.`);
 });
 
 app.post("/eat-cookie", function (req, res) {
